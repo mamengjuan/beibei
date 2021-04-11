@@ -14,3 +14,8 @@ class Hero():
             print("我们打平了")
 
 
+    def speak_lines(self,name):
+        if self.name == "timo":
+            print("提莫队长正在待命")
+        elif self.name == "police":
+            print("见识一下法律的子弹")

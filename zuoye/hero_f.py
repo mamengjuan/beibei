@@ -16,5 +16,5 @@ class HeroFactory():
 hero_factory = HeroFactory()
 timo = hero_factory.caeatehero("timo")
 police = hero_factory.caeatehero("police")
-timo.speak_lines()
-police.speak_lines()
+timo.speak_lines(timo)
+police.speak_lines(police)

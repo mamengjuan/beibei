@@ -28,5 +28,3 @@ class Timo(Hero):
     #         print(f"敌人赢了")
     #     else:
     #         print("我们打平了")
-    def speak_lines(self):
-        print("提莫队长正在待命")
