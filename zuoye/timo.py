@@ -17,6 +17,7 @@ from zuoye.hero import Hero
 class Timo(Hero):
     hp = 3000
     power = 200
+    
     name = "timo"
 
     # def fight(self,enemy_hp,enemy_power):
